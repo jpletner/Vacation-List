@@ -1,0 +1,39 @@
+.col-md-4 {
+  background-color: #e5e5e5;
+  border: 1px solid grey;
+}
+
+.col-md-4:nth-child(2) {
+  background-color: #f5f5f5;
+}
+
+.location {
+  width: 100%;
+  padding: 2% 0 2% 0;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 5%;
+  background-color: #cccccc;
+  text-align: center;
+}
