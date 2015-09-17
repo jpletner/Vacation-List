@@ -5,10 +5,18 @@
   <link href="styles.css" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
   <script src="jquery.js"></script>
-  <title>HTML help</title>
+
+  <script type="text/javascript">var switchTo5x=true;</script>
+  <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+  <script type="text/javascript">stLight.options({publisher: "5ec0f8e6-dcf4-4c03-ad0d-e65fca760772", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+
+  <title>Personal Vacation List</title>
 </head>
 
 <body>
+
+
+
   <nav class="navbar navbar-default">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
@@ -40,12 +48,7 @@
             </ul>
           </li>
         </ul>
-        <form class="navbar-form navbar-left" role="search">
-          <div class="form-group">
-            <input type="text" class="form-control" placeholder="Search">
-          </div>
-          <button type="submit" class="btn btn-default">Submit</button>
-        </form>
+
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#">Link</a></li>
           <li class="dropdown">
@@ -63,39 +66,102 @@
     </div><!-- /.container-fluid -->
   </nav>
 
+  <div class="fixedDiv well">
+    <h3>Places I want to go:</h3>
+    <ul id="tripList"></ul>
+
+
+    <span class='st_facebook_hcount' displayText='Facebook'></span>
+    <span class='st_twitter_hcount' displayText='Tweet'></span>
+
+  </div>
+
   <div class="container">
-    <div class="row shade">
-        <div class="col-md-4 slidehidden slideshow">
-          <img class="location paris" src="media/paris.jpeg">
-          <div id="parisInfo" class="hidden">
+      <div class="row">
+        <div class="col-md-4 state1 cell">
+          <img src="media/paris.jpeg">
             <h1>Paris, France</h1>
             <h2>Best bread and cheese!</h2>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-          </div>
+            <button>Add to Trips</button>
         </div>
-        <div class="col-md-4">
-          <img class="location nyc" src="media/nyc.jpeg">
-          <div id="nycInfo" class="hidden">
+
+        <div class="col-md-4 state1 cell">
+          <img src="media/nyc.jpeg">
             <h1>NYC, New York</h1>
             <h2>Best cheesecake!</h2>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-          </div>
+            <button>Add to Trips</button>
         </div>
-        <div class="col-md-4">
-          <img class="location rome" src="media/rome.jpeg">
-          <div id="romeInfo" class="hidden">
+
+        <div class="col-md-4 state1 cell">
+          <img src="media/rome.jpeg">
             <h1>Rome, Italy</h1>
             <h2>Best wine and pasta!</h2>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-          </div>
+            <button>Add to Trips</button>
         </div>
-    </div>
-  </div>
+      </div>
 
-      <footer class="footer">
-        <div class="container">
-          <p class="text-muted">ACTION HERE >> | Most Popular Vacation Spots | << ACTION HERE</p>
+      <div class="row">
+        <div class="col-md-4 state1 cell">
+          <img src="media/cancun.jpeg">
+            <h1>Cancun, Mexico</h1>
+            <h2>Best burritos and tacos!</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <button>Add to Trips</button>
         </div>
-      </footer>
-</body>
+
+        <div class="col-md-4 state1 cell">
+          <img src="media/london.jpeg">
+            <h1>London, England</h1>
+            <h2>Best fish and chips!</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <button>Add to Trips</button>
+        </div>
+
+        <div class="col-md-4 state1 cell">
+          <img src="media/miami.jpeg">
+            <h1>Miami, Florida</h1>
+            <h2>Best churros!</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <button>Add to Trips</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 state1 cell">
+          <img src="media/sf.jpg">
+            <h1>San Francisco, CA</h1>
+            <h2>Best burritos and tacos!</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <button>Add to Trips</button>
+        </div>
+
+        <div class="col-md-4 state1 cell">
+          <img src="media/dubai.jpg">
+            <h1>Dubai, UAE</h1>
+            <h2>Best fish and chips!</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <button>Add to Trips</button>
+        </div>
+
+        <div class="col-md-4 state1 cell">
+          <img src="media/maldives.jpg">
+            <h1>Maldives, South Asia</h1>
+            <h2>Best churros!</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <button>Add to Trips</button>
+        </div>
+      </div>
+    </div>
+
+
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted">ACTION HERE >> | Most Popular Vacation Spots | << ACTION HERE</p>
+      </div>
+    </footer>
+
+  </body>
 </html>
